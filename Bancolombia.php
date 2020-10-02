@@ -104,9 +104,6 @@
                     <?php if(isset($_POST["botoncalcular"]))
                     {
 
-                    
-
-                       
                         $nombre1=$_POST["nombre1"];
                         $telefono1=$_POST["telefono1"];
                         $direccion1=$_POST["direccion1"];
@@ -131,8 +128,6 @@
                         $telefono5=$_POST["telefono5"];
                         $direccion5=$_POST["direccion5"];
                         $salario5=$_POST["salario5"];
-
-
 
                         $sumatoriaSalararios = $salario1 + $salario2 + $salario3 + $salario4 + $salario5 ;
 
@@ -183,16 +178,6 @@
                         else {
                             echo "La sucursal B tiene la mejor sumatoria de salarios con un salario total de: 40000000" ;
                         }
-
-                
-                        
-                       
-                          
-                        
-                        
-                    
-                    
-                    
                     }
                     ?>
                 </div>

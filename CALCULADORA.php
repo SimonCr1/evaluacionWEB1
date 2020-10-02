@@ -77,11 +77,7 @@
                             default:
                                 # code...
                                 break;
-                        }
-                        
-                    
-                    
-                    
+                        }                 
                     }
                     ?>
                 </div>
